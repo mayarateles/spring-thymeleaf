@@ -26,8 +26,8 @@ public class PedidoRepository {
     public List<PedidoEntity> getLista() {
         return lista;
     }
-//
-//    public PedidoEntity getListaById(Long id) {
-//        return lista;
-//    }
+
+    public static PedidoEntity getListaById(Long id) {
+        return null;
+    }
 }
